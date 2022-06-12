@@ -1,0 +1,13 @@
+production: false # режим запуска
+log_level: DEBUG # уровень логирования
+server: # настройки запуска сервеа
+  port: 8080 # порт
+  jwt_secret: secret # секрет для jwt
+  user_jwt_expires: '24h' # время жизни jwt
+db: # настройки бд
+  host: 127.0.0.1 # хост
+  port: 5432 # порт
+  username: username # пользователь
+  password: password # пароль
+  database: database # бд
+  sslmode: disable # ssl
